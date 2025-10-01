@@ -1,0 +1,21 @@
+.welcome {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: rgb(11, 245, 3);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(0, 157, 255);
+    background-color: rgb(24, 228, 201);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
