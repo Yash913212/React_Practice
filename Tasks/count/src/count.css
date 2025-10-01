@@ -1,0 +1,37 @@
+.Name {
+    width: 415px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 18px;
+    background: linear-gradient(120deg, #fffbe6 0%, #ffe0b2 100%);
+    border: 2.5px solid #ff9800;
+    color: #ff9800;
+    letter-spacing: 1px;
+    padding: 0 32px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.2s, border 0.2s;
+}
+
+.btn {
+    color: #fff;
+    background: linear-gradient(90deg, #ff9800 0%, #ffb347 100%);
+    border: none;
+    border-radius: 7px;
+    padding: 0.75em 2em;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+    gap: 10px;
+    outline: none;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #ffb347 0%, #ff9800 100%);
+    transform: translateY(-3px) scale(1.04);
+    box-shadow: 0 8px 24px rgba(255, 152, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.15);
+}
